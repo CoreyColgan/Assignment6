@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
-
-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 # Part 1 - create functions to test celsius conversions
 
 # Function to test celcius to kelvin
@@ -44,16 +38,3 @@ def convertKelvinToFahrenheit(kelvinMeasurement):
     kelvinToFahrenheit = ((kelvinMeasurement * 9.0) / 5.0) - 459.67
     kelvinToFahrenheit = (round(kelvinToFahrenheit,4))
     return kelvinToFahrenheit
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
