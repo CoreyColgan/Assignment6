@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[16]:
-
-
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-
 # Create class for exception handling invalid conversions
 
 class CatchFaultyConversion(Exception):
@@ -60,16 +54,3 @@ def conversions(fromUnit, toUnit, val):
 
     else:
         raise CatchFaultyConversion("Input is invalid.")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
