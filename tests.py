@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-
 # File for running tests for conversions
 
 import conversions
@@ -49,10 +43,3 @@ class TestConversions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-# In[ ]:
-
-
-
-
